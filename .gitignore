@@ -1,0 +1,59 @@
+### Java / Maven ###
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+HELP.md
+
+### Gradle / generic build output ###
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### Node / React / TS ###
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+**/nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Env / secrets ###
+.env
+.env.*
+!.env.example
+
+### Logs ###
+*.log
