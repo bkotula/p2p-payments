@@ -1,3 +1,5 @@
+name: p2p-payments
+
 services:
   postgres:
     image: postgres:18
