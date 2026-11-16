@@ -3,7 +3,7 @@
 A PayPal-style peer-to-peer payments backend: users, wallets, top-ups and transfers.
 Built as a learning project. Payments are simulated; no real money is involved.
 
-![CI](https://github.com/<you>/p2p-payments/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/bkotula/p2p-payments/actions/workflows/pipeline.yaml/badge.svg)
 
 ## Status
 - [x] M0 · Project setup
