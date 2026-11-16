@@ -32,7 +32,11 @@ Prerequisites: JDK 25, Docker. You don't need to install Maven; the wrapper (`mv
 ## Project structure
     wallet/   Spring Boot app, owns the database
     deploy/           Docker Compose (Kubernetes manifests later)
-    docs/             Design decisions
+    docs/             Design decisions, requirements
 
 ## Design decisions
 See [docs/decisions.md](docs/decisions.md).
+
+## Requirements
+
+See [docs/requirements.md](docs/requirements.md).

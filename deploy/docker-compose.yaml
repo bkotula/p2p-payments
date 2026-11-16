@@ -10,7 +10,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - pgdata:/var/lib/postgresql   # note: not .../data — Postgres 18 changed this
+      - pgdata:/var/lib/postgresql
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U wallet -d wallet"]
       interval: 5s
